@@ -1,0 +1,685 @@
+[
+  {
+    "id": 1,
+    "placeName": "Shirdi",
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "theaters": [
+      {
+        "id": 101,
+        "name": "Sai Cinemas",
+        "distance": "0.5 km",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Jawan",
+            "genre": "Action, Thriller",
+            "times": ["10:30 AM", "2:00 PM", "6:30 PM"],
+            "price": "₹150"
+          },
+          {
+            "name": "Gadar 2", 
+            "genre": "Action, Drama",
+            "times": ["11:00 AM", "3:15 PM", "7:45 PM"],
+            "price": "₹130"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Shri Sai Multiplex",
+        "distance": "1.2 km",
+        "rating": 3.9,
+        "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "OMG 2",
+            "genre": "Comedy, Drama", 
+            "times": ["1:30 PM", "5:00 PM", "9:30 PM"],
+            "price": "₹120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "placeName": "Mumbai",
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "theaters": [
+      {
+        "id": 201,
+        "name": "PVR IMAX Mumbai",
+        "distance": "3.2 km",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Guardians of Galaxy 3",
+            "genre": "Action, Comedy",
+            "times": ["10:30 AM", "2:15 PM", "6:00 PM"],
+            "price": "₹350"
+          },
+          {
+            "name": "John Wick 4",
+            "genre": "Action, Crime",
+            "times": ["2:00 PM", "6:45 PM", "10:30 PM"],
+            "price": "₹300"
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "name": "Cinepolis Andheri",
+        "distance": "5.1 km",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Pathaan",
+            "genre": "Action, Thriller",
+            "times": ["11:00 AM", "3:30 PM", "8:00 PM"],
+            "price": "₹280"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "placeName": "Delhi",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "theaters": [
+      {
+        "id": 301,
+        "name": "PVR Select City Walk",
+        "distance": "2.8 km",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Mission Impossible 7",
+            "genre": "Action, Thriller",
+            "times": ["10:00 AM", "1:45 PM", "7:30 PM"],
+            "price": "₹320"
+          },
+          {
+            "name": "Oppenheimer",
+            "genre": "Biography, Drama",
+            "times": ["12:30 PM", "4:15 PM", "9:00 PM"],
+            "price": "₹400"
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "name": "INOX Connaught Place",
+        "distance": "1.5 km",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Barbie",
+            "genre": "Comedy, Fantasy",
+            "times": ["11:30 AM", "3:00 PM", "6:45 PM"],
+            "price": "₹280"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "placeName": "Bengaluru",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "theaters": [
+      {
+        "id": 401,
+        "name": "PVR Forum Mall",
+        "distance": "4.2 km",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "KGF Chapter 3",
+            "genre": "Action, Drama",
+            "times": ["10:15 AM", "2:30 PM", "7:15 PM"],
+            "price": "₹250"
+          },
+          {
+            "name": "Spider-Man: Across",
+            "genre": "Animation, Action",
+            "times": ["12:00 PM", "4:30 PM", "9:15 PM"],
+            "price": "₹220"
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "name": "Multiplex Mantri Square",
+        "distance": "6.8 km",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Kantara",
+            "genre": "Action, Thriller",
+            "times": ["11:45 AM", "4:00 PM", "8:45 PM"],
+            "price": "₹180"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "placeName": "Chennai",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "theaters": [
+      {
+        "id": 501,
+        "name": "Sathyam Cinemas",
+        "distance": "3.5 km",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Jailer",
+            "genre": "Action, Comedy",
+            "times": ["10:00 AM", "1:30 PM", "6:15 PM"],
+            "price": "₹200"
+          },
+          {
+            "name": "Ponniyin Selvan 2",
+            "genre": "Historical, Drama",
+            "times": ["11:15 AM", "3:45 PM", "8:30 PM"],
+            "price": "₹240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "placeName": "Hyderabad",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "theaters": [
+      {
+        "id": 601,
+        "name": "AMB Cinemas",
+        "distance": "2.7 km",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "RRR Re-release",
+            "genre": "Action, Drama",
+            "times": ["10:30 AM", "2:45 PM", "7:00 PM"],
+            "price": "₹230"
+          },
+          {
+            "name": "Salaar",
+            "genre": "Action, Thriller",
+            "times": ["12:15 PM", "5:30 PM", "9:45 PM"],
+            "price": "₹260"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "placeName": "Kolkata",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "theaters": [
+      {
+        "id": 701,
+        "name": "INOX South City",
+        "distance": "4.1 km",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Pather Panchali Re-release",
+            "genre": "Drama, Classic",
+            "times": ["11:00 AM", "3:30 PM", "7:30 PM"],
+            "price": "₹180"
+          },
+          {
+            "name": "Rocky Aur Rani",
+            "genre": "Romance, Drama",
+            "times": ["1:15 PM", "5:45 PM", "9:15 PM"],
+            "price": "₹220"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "placeName": "Pune",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "theaters": [
+      {
+        "id": 801,
+        "name": "PVR Phoenix Mills",
+        "distance": "2.5 km",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Zara Hatke Zara Bachke",
+            "genre": "Comedy, Romance",
+            "times": ["11:30 AM", "4:00 PM", "8:30 PM"],
+            "price": "₹240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "placeName": "Ahmedabad",
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "theaters": [
+      {
+        "id": 901,
+        "name": "Cinepolis Ahmedabad One",
+        "distance": "3.8 km",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Adipurush",
+            "genre": "Action, Adventure",
+            "times": ["10:45 AM", "2:30 PM", "6:45 PM"],
+            "price": "₹170"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "placeName": "Jaipur",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "theaters": [
+      {
+        "id": 1001,
+        "name": "Raj Mandir Cinema",
+        "distance": "1.2 km",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Bhaag Milkha Bhaag Re-release",
+            "genre": "Sports, Drama",
+            "times": ["11:00 AM", "3:15 PM", "7:45 PM"],
+            "price": "₹160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "placeName": "Lucknow",
+    "state": "Uttar Pradesh", 
+    "district": "Lucknow",
+    "theaters": [
+      {
+        "id": 1101,
+        "name": "Wave Cinemas",
+        "distance": "2.3 km",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "The Kerala Story",
+            "genre": "Drama, Thriller",
+            "times": ["12:00 PM", "4:30 PM", "8:15 PM"],
+            "price": "₹140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "placeName": "Kochi",
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "theaters": [
+      {
+        "id": 1201,
+        "name": "PVR Lulu Mall",
+        "distance": "5.5 km",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "2018",
+            "genre": "Thriller, Drama",
+            "times": ["10:30 AM", "2:15 PM", "6:30 PM"],
+            "price": "₹190"
+          },
+          {
+            "name": "Minnal Murali",
+            "genre": "Action, Superhero",
+            "times": ["1:00 PM", "5:15 PM", "9:00 PM"],
+            "price": "₹210"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "placeName": "Bhopal",
+    "state": "Madhya Pradesh",
+    "district": "Bhopal",
+    "theaters": [
+      {
+        "id": 1301,
+        "name": "INOX City Centre",
+        "distance": "3.2 km",
+        "rating": 4.1,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Tumhari Sulu Re-release",
+            "genre": "Comedy, Drama",
+            "times": ["11:45 AM", "4:15 PM", "8:00 PM"],
+            "price": "₹130"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "placeName": "Chandigarh",
+    "state": "Punjab",
+    "district": "Chandigarh",
+    "theaters": [
+      {
+        "id": 1401,
+        "name": "PVR Elante Mall",
+        "distance": "4.7 km",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Carry On Jatta 3",
+            "genre": "Comedy, Punjabi",
+            "times": ["10:15 AM", "2:00 PM", "6:00 PM"],
+            "price": "₹180"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "placeName": "Indore",
+    "state": "Madhya Pradesh",
+    "district": "Indore", 
+    "theaters": [
+      {
+        "id": 1501,
+        "name": "Malhar Mega Mall",
+        "distance": "2.1 km",
+        "rating": 4.0,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Scam 1992 Re-release",
+            "genre": "Drama, Biography",
+            "times": ["11:30 AM", "3:45 PM", "7:30 PM"],
+            "price": "₹150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "placeName": "Nagpur",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "theaters": [
+      {
+        "id": 1601,
+        "name": "Carnival Cinema",
+        "distance": "1.8 km",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Satyaprem Ki Katha",
+            "genre": "Romance, Drama",
+            "times": ["12:15 PM", "4:45 PM", "8:30 PM"],
+            "price": "₹160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "placeName": "Surat",
+    "state": "Gujarat",
+    "district": "Surat",
+    "theaters": [
+      {
+        "id": 1701,
+        "name": "PVR VR Mall",
+        "distance": "6.2 km",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Transformers: Rise",
+            "genre": "Action, Adventure",
+            "times": ["10:00 AM", "1:30 PM", "5:45 PM"],
+            "price": "₹200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "placeName": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "theaters": [
+      {
+        "id": 1801,
+        "name": "INOX CMR Central",
+        "distance": "3.9 km",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Pushpa 2",
+            "genre": "Action, Drama",
+            "times": ["11:00 AM", "3:30 PM", "7:45 PM"],
+            "price": "₹220"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "placeName": "Coimbatore",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "theaters": [
+      {
+        "id": 1901,
+        "name": "KG Cinemas",
+        "distance": "2.5 km",
+        "rating": 4.1,
+        "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Vikram Re-release",
+            "genre": "Action, Thriller",
+            "times": ["10:45 AM", "2:30 PM", "6:15 PM"],
+            "price": "₹180"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "placeName": "Mysuru",
+    "state": "Karnataka",
+    "district": "Mysuru",
+    "theaters": [
+      {
+        "id": 2001,
+        "name": "PVR Nexus Mall",
+        "distance": "4.8 km",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "777 Charlie Re-release",
+            "genre": "Adventure, Drama",
+            "times": ["11:15 AM", "3:00 PM", "7:00 PM"],
+            "price": "₹170"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "placeName": "Nashik",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "theaters": [
+      {
+        "id": 2101,
+        "name": "City Pride Multiplex",
+        "distance": "2.8 km",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Dream Girl 2",
+            "genre": "Comedy, Romance",
+            "times": ["12:30 PM", "4:30 PM", "9:00 PM"],
+            "price": "₹180"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "placeName": "Kanpur",
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "theaters": [
+      {
+        "id": 2201,
+        "name": "Rave Moti Jheel",
+        "distance": "3.1 km",
+        "rating": 3.9,
+        "image": "https://images.unsplash.com/photo-1489599558499-b3b5eb0f3584?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Bholaa",
+            "genre": "Action, Crime",
+            "times": ["2:15 PM", "6:00 PM", "9:45 PM"],
+            "price": "₹140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "placeName": "Rajkot",
+    "state": "Gujarat",
+    "district": "Rajkot",
+    "theaters": [
+      {
+        "id": 2301,
+        "name": "Mukta A2 Cinemas",
+        "distance": "1.9 km",
+        "rating": 4.0,
+        "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Chhello Show",
+            "genre": "Drama, Coming-of-age",
+            "times": ["11:00 AM", "2:45 PM", "6:30 PM"],
+            "price": "₹120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "placeName": "Thiruvananthapuram",
+    "state": "Kerala",
+    "district": "Thiruvananthapuram",
+    "theaters": [
+      {
+        "id": 2401,
+        "name": "Carnival Cinemas",
+        "distance": "5.3 km",
+        "rating": 4.1,
+        "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Pathonpatham Noottandu",
+            "genre": "Period, Action",
+            "times": ["10:30 AM", "1:45 PM", "5:30 PM"],
+            "price": "₹160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "placeName": "Guwahati",
+    "state": "Assam",
+    "district": "Kamrup",
+    "theaters": [
+      {
+        "id": 2501,
+        "name": "PVR Guwahati Central",
+        "distance": "4.5 km",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=200&fit=crop",
+        "movies": [
+          {
+            "name": "Local Utpaat",
+            "genre": "Comedy, Assamese",
+            "times": ["11:30 AM", "4:15 PM", "8:00 PM"],
+            "price": "₹150"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body{
+    background-color: black;
+}
+.slide{
+
+    z-index: -11;
+}
+.drop{
+    filter: drop-shadow(1px 1px 1px white);
+}
+.grid{
+    position: relative;
+    top: 52rem;
+}
+.stop{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.f2{
+    position: relative;
+    top: 1rem;
+}
+.make-down{
+    position: relative;
+    top: 1rem;
+}
+.shadow{
+ filter: drop-shadow(2px 4px 6px white);
+}
+.teck{
+    font-size: 8px;
+    
+}
+.mix{
+ height: 300px;
+}
